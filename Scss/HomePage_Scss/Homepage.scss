@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+#navbarContent{
+    ul li a{
+        padding: 4px 14px;
+    }
+    a:hover{
+        color: #f90;
+        transition: .5s;
+    }
+}
+// 
+
+// 
+
+.background-image{
+    background-image: url('../../Documents/Images/Section_Images_Folder//Vector-Smart-Object.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    .buttons{
+        a{
+            border: 1px solid #eee;
+            padding: 10px 50px;
+        }
+    }
+}

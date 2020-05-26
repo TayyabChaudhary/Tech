@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#navbarContent ul li a {
+  padding: 4px 14px;
+}
+
+#navbarContent a:hover {
+  color: #f90;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.background-image {
+  background-image: url("../../Documents/Images/Section_Images_Folder//Vector-Smart-Object.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center center;
+}
+
+.background-image .buttons a {
+  border: 1px solid #eee;
+  padding: 10px 50px;
+}
+/*# sourceMappingURL=Homepage.css.map */
